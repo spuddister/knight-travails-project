@@ -1,23 +1,15 @@
 # Knights Travails Project
 
-[The Odin Project](https://www.theodinproject.com/) binrary search tree assignment. In this assignment I practiced my skills of creating, traversing, and manipulating binary search tree's. 
+For this project from [The Odin Project](https://www.theodinproject.com/) curriculum, the user inputs a start and end location on a chess board, and the code determines the smallest amount of moves it would take for a knight (chess piece) to get there. 
 
 ### New Skills / Knowledge
-- Binary Search Trees
-  - Creation
-  - Balancing
-  - Inserting
-  - Deleting
-  - Pre-order, Post-order, and In-order traversal
-  - Height and Depth
-- Breadth-first-search (BFS)
-- Depth-first-search (DFS)
+- Data structure: graphs
+- Map objects
 
-
+### Test Cases
 ```
-//TEST RUNS
+knightTravails([3, 6], [1, 1]);
 
-knightTravails([2, 2], [4, 4]);
 /** OUTPUT
  *
  * > knightTravails([3,6],[1,1])
@@ -28,7 +20,8 @@ knightTravails([2, 2], [4, 4]);
  *  [1,1]
  */
 
-knightTravails([3, 6], [1, 1]);
+knightTravails([2, 2], [4, 4]);
+
 /** OUTPUT
  *
  * > knightTravails([2,2],[4,4])
@@ -41,6 +34,7 @@ knightTravails([3, 6], [1, 1]);
  */
 
 knightTravails([7, 1], [1, 8]);
+
 /** OUTPUT
  *
  * > knightTravails([7,1],[1,8])
