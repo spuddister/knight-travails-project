@@ -1,6 +1,6 @@
 # Knights Travails Project
 
-For this project from [The Odin Project](https://www.theodinproject.com/) curriculum, the user inputs a start and end location on a chess board, and the code determines the smallest amount of moves it would take for a knight (chess piece) to get there. 
+For this project from [The Odin Project](https://www.theodinproject.com/) curriculum, the user inputs a start and end location on a chess board, and the code determines the least amount of moves it would take for a knight (chess piece) to get there. 
 
 ### New Skills / Knowledge
 - Data structure: graphs
